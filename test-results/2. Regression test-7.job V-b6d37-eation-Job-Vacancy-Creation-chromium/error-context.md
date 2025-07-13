@@ -1,0 +1,109 @@
+# Page snapshot
+
+```yaml
+- complementary:
+  - navigation "Sidepanel":
+    - link "client brand banner":
+      - /url: https://www.orangehrm.com/
+      - img "client brand banner"
+    - textbox "Search"
+    - button ""
+    - separator
+    - list:
+      - listitem:
+        - link "Admin":
+          - /url: /web/index.php/admin/viewAdminModule
+      - listitem:
+        - link "PIM":
+          - /url: /web/index.php/pim/viewPimModule
+      - listitem:
+        - link "Leave":
+          - /url: /web/index.php/leave/viewLeaveModule
+      - listitem:
+        - link "Time":
+          - /url: /web/index.php/time/viewTimeModule
+      - listitem:
+        - link "Recruitment":
+          - /url: /web/index.php/recruitment/viewRecruitmentModule
+      - listitem:
+        - link "My Info":
+          - /url: /web/index.php/pim/viewMyDetails
+      - listitem:
+        - link "Performance":
+          - /url: /web/index.php/performance/viewPerformanceModule
+      - listitem:
+        - link "Dashboard":
+          - /url: /web/index.php/dashboard/index
+      - listitem:
+        - link "Directory":
+          - /url: /web/index.php/directory/viewDirectory
+      - listitem:
+        - link "Maintenance":
+          - /url: /web/index.php/maintenance/viewMaintenanceModule
+      - listitem:
+        - link "Claim":
+          - /url: /web/index.php/claim/viewClaimModule
+          - img
+          - text: Claim
+      - listitem:
+        - link "Buzz":
+          - /url: /web/index.php/buzz/viewBuzz
+- banner:
+  - heading "Recruitment" [level=6]
+  - link "Upgrade":
+    - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+    - button "Upgrade"
+  - list:
+    - listitem:
+      - img "profile picture"
+      - paragraph: Akash Sharma
+      - text: 
+  - navigation "Topbar Menu":
+    - list:
+      - listitem:
+        - link "Candidates":
+          - /url: "#"
+      - listitem:
+        - link "Vacancies":
+          - /url: "#"
+      - button ""
+- heading "Vacancies" [level=5]
+- button ""
+- separator
+- text: Job Title Software Engineer  Vacancy -- Select --  Hiring Manager -- Select --  Status -- Select -- 
+- separator
+- button "Reset"
+- button "Search"
+- button " Add"
+- separator
+- text: (1) Record Found
+- table:
+  - rowgroup:
+    - row " Vacancy  Job Title  Hiring Manager  Status  Actions":
+      - columnheader "":
+        - checkbox ""
+        - text: 
+      - columnheader "Vacancy "
+      - columnheader "Job Title "
+      - columnheader "Hiring Manager "
+      - columnheader "Status "
+      - columnheader "Actions"
+  - rowgroup:
+    - row " Software Engineer Software Engineer (Deleted) Active  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "Software Engineer"
+      - cell "Software Engineer"
+      - cell "(Deleted)"
+      - cell "Active"
+      - cell " ":
+        - button ""
+        - button ""
+- paragraph: OrangeHRM OS 5.7
+- paragraph:
+  - text: © 2005 - 2025
+  - link "OrangeHRM, Inc":
+    - /url: http://www.orangehrm.com
+  - text: . All rights reserved.
+```
