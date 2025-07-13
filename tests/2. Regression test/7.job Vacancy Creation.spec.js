@@ -19,7 +19,7 @@ test ('Job Vacancy Creation', async({page,baseURL})=>{
     await recruitmentPage.vacancyNameInput.fill('IT')
     await recruitmentPage.jobTitleDDL.click()
     await recruitmentPage.softwareEngineerOption.click()
-    await recruitmentPage.hiringManagerInput.pressSequentially('Timothy Lewis Amiano',{ delay: 500 })
+    await recruitmentPage.hiringManagerInput.pressSequentially('David  James',{ delay: 500 })
     await recruitmentPage.saveBtn.click()
     await page.waitForTimeout(2000)
 
@@ -32,6 +32,6 @@ test ('Job Vacancy Creation', async({page,baseURL})=>{
     await recruitmentPage.searchBtn.click()
 
     const addedVacancy = page.getByRole('row', {name:("Software Engineer")}).nth(0)
-    await expect(addedVacancy).toHaveText('ITSoftware EngineerTimothy AmianoActive')
+    await expect(addedVacancy).toHaveText('ITSoftware EngineerDavid  JamesActive')
 
 })
